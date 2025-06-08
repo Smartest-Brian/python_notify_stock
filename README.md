@@ -12,4 +12,5 @@
 
 3. 增加『Cloud Scheduler』，設定執行作業為『Pub/Sub』，主題要使用剛剛建好的
 
-### 記得要放 line token 上 GCP 
+### 記得要放 token 上 GCP 
+### local 需使用 .env
