@@ -12,4 +12,9 @@
 
 3. 增加『Cloud Scheduler』，設定執行作業為『Pub/Sub』，主題要使用剛剛建好的
 
-### 記得要放 line token 上 GCP 
+### 環境變數
+```
+LINE_CHANNEL_ACCESS_TOKEN=your line bot channel token
+LINE_USER_ID=the user id to push message to
+ALPHAVANTAGE_API_KEY=your alphavantage api key
+```

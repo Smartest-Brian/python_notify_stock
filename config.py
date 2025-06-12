@@ -8,7 +8,10 @@ class Config:
     load_dotenv()
 
     LINE_TOKEN = os.getenv("LINE_TOKEN")
+    LINE_CHANNEL_ACCESS_TOKEN = os.getenv("LINE_CHANNEL_ACCESS_TOKEN")
+    LINE_USER_ID = os.getenv("LINE_USER_ID")
     NEWS_TOKEN = os.getenv("NEWS_API_TOKEN")
+    ALPHAVANTAGE_API_KEY = os.getenv("ALPHAVANTAGE_API_KEY")
 
     # stock info
     ETF_SYMBOL = "VOO"
